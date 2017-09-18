@@ -66,4 +66,4 @@ Signature: `listen: (element: HTMLElement|[HTMLElement], eventName: string, hand
 
 ## License
 
-MIT
+MIT, see [LICENSE.md](./LICENSE.md)
