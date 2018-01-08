@@ -34,8 +34,8 @@ Uses `querySelectorAll` internally, but converts the result into a regular Array
 ```js
 import {findOne} from '@grebaldi/dom-ops';
 
-const firstSectionOnPage = find(document, 'section');
-const firstButtonInSection = find(firstSectionOnPage, 'button');
+const firstSectionOnPage = findOne(document, 'section');
+const firstButtonInSection = findOne(firstSectionOnPage, 'button');
 ```
 
 Signature: `findOne: (element: HTMLElement|[HTMLElement], selector: string) -> result: HTMLElement`
